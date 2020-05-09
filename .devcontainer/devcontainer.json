@@ -1,0 +1,19 @@
+{
+	"name": "Node.js 14",
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"eslint.alwaysShowStatus": true,
+		"eslint.validate": ["javascript"]
+	},
+	"extensions": [
+        "octref.vetur",
+		"dbaeumer.vscode-eslint",
+		"orta.vscode-jest"
+	],
+	"forwardPorts": [],
+	"remoteUser": "node"
+}
